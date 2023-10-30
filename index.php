@@ -1,5 +1,7 @@
 <?php 
+  //include the database file
   include_once("dbConnection/mysqlconfig_connection.php");
+  //fetch file
   include_once("functions/fetch.php");
 ?>
 <!DOCTYPE html>
