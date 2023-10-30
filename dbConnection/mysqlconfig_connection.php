@@ -5,5 +5,5 @@
   DEFINE('DB_Name','db');
 
   $dbc = @mysqli_connect(DB_Host, DB_User, DB_Password, DB_Name)
-  OR dies('Could not connect to MySQL: '.mysql_connect_errno(), DB_connect_error());
+  or die('Could not connect to MySQL: '. mysqli_connect_error());
 ?>
