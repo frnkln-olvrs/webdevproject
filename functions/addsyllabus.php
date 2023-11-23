@@ -21,7 +21,7 @@
           echo "<br/><a href='javascript:self.history.back();'>Go back</a>";
         }
         else {
-          $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(syllabus_code, syllabus_athor) VALUES('$code', '$author')");
+          $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(syllabus_code, syllabus_athor, subject_id) VALUES('$code', '$author', '$subject')");
           echo "<font color='green'>Data added Succesfully</font>";
           echo "<br/><a href='../index.php'>View Result</a>";
         }
