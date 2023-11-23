@@ -13,7 +13,10 @@
 </head>
 <body>
   <h1>My Subjects</h1>
-  <a href="forms/addform.php">Add Subject</a><br><br>
+  <div class="pages" style="display: flex; gap: 1rem;">
+    <a href="forms/addform.php">Add Subject</a><br><br>
+    <a href="forms/addsyllabusform.php">Add Syllabus</a><br><br>
+  </div>
   <table width='100%' border=1>
     <tr bgcolor='#CCCCCC'>
       <td>ID</td>
